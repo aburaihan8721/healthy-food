@@ -1,0 +1,234 @@
+/* ================================================
+common css
+=================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5{
+    color: #575757;
+}
+
+p{
+    font-size: 16px;
+    color: #929292;
+    font-weight: 400;
+}
+
+.shared_link_btn{
+    text-decoration: none;
+    text-align: center;
+    background: #74e6a3;
+    background-image: linear-gradient(to right, #12B4FC, #c696ee);
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.shared_card{
+    width: 33.3333%;
+    margin-right: 30px;
+}
+.shared_card:last-child{
+    margin-right: 0px;
+}
+
+.shared_text_highlight{
+    color: #74e6a3;
+}
+
+.display_flex{
+    display: flex;
+}
+.half_width{
+    width: 50%;
+}
+ .shared_margin_padding{
+    margin-top: 15px;
+    padding: 20px 0;
+ }
+
+/* ================================================
+css for header area
+=================================================== */
+/* menu part */
+.menu_area{
+    padding-top: 10px;
+}
+.navbar ul{
+    list-style-type: none;
+    text-align: right;
+}
+.navbar ul li{
+    display: inline;
+    margin: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.navbar ul li a:hover{
+    background-color: #74E6A3;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+/* banner part */
+.banner_content{
+    padding-top: 80px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.banner_content p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.banner_img{
+    text-align: right;
+    margin-left: auto;
+}
+.banner_img img{
+    height: 500px;
+    width: auto;
+}
+/* ================================================
+css for about me area
+=================================================== */
+.aboutme_area{
+    background-image: url(images/aboutme_bg.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aboutme_img img{
+    height: 350px;
+    padding-top: 20px;
+}
+.aboutme_content{
+    margin-top: 30px;
+    padding: 40px 0;
+}
+h2{
+    font-size: 35px;
+}
+.aboutme_content p{
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+/* ================================================
+css for recipe area
+=================================================== */
+.inner_recipes_text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+}
+.inner_recipes_text p{
+    margin-top: 30px;
+    line-height: 25px;
+}
+.recipecard_wrapper{
+    margin-top: 30px;
+}
+.recipe_card, .service{
+    box-shadow: 0 0 20px gray;
+    padding: 20px;
+    border-radius: 15px;
+}
+.recipe_card h4, .service h4{
+    margin-top: 25px;
+    font-size: 25px;
+}
+.recipe_card p, .service p{
+    margin-top: 15px;
+}
+
+/* ================================================
+css for followers area
+=================================================== */
+.inner_followers{
+    text-align: center;
+    box-shadow: 0 0 15px rgba(153, 121, 121, 0.534);
+    border-radius: 10px;
+    padding: 50px 10px;
+}
+.inner_followers h5{
+    font-weight: 800;
+    color: #18191F;
+    font-size: 30px;
+}
+.inner_followers p{
+    margin-top: 10px;
+}
+
+/* ================================================
+css for services area
+=================================================== */
+.inner_service h3{
+    text-align: center;
+}
+.service_wrapper{
+    margin-top: 40px;
+}
+.service img {
+    max-width: 100%;
+    height: 250px;
+}
+
+/* ================================================
+css for footer area
+=================================================== */
+.footer_area{
+    background-color: #18191F;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.footer_area h5{
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer_area p{
+    margin-top: 20px;
+    color: #fff;
+}
+
+
+/* end */
